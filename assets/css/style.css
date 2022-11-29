@@ -1,0 +1,82 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+/* Left-Side */
+
+.left {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+.left img {
+  height: 300px;
+  width: 300px;
+  border-radius: 8px;
+}
+
+.left .about-me {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.left .about-me h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.left .about-me p {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+button {
+  background: black;
+  color: #fff;
+  width: 300px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.socials {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+/* Right-Side*/
+
+.right {
+  height: 100%;
+  width: 50%;
+  background: #eee;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 200px;
+}
+
+.introduction {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 600px;
+}
